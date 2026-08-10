@@ -1,5 +1,7 @@
 <img src="branding/banner-readme.png" alt="Meridian">
 
+🌐 **Demo ao vivo**: [lavinialencar.github.io/meridian](https://lavinialencar.github.io/meridian/) — *dados de exemplo, só pra mostrar a interface (não sincroniza com nenhum uso real)*
+
 Sistema unificado de produtividade pessoal em um único arquivo HTML. Roda 100% local no browser, com backup automático opcional no Google Drive.
 
 Escrito em vanilla JS + CSS, sem build step, sem dependências.
@@ -66,6 +68,20 @@ Sem framework. Sem build. Sem npm. Sem tooling.
 **Tamanho**: ~100KB de JS, ~20KB de CSS, tudo num único arquivo HTML.
 
 ![Arquitetura](branding/meridian-arquitetura.png)
+
+---
+
+## 📸 Screenshots
+
+| Home | Tasks (Kanban) |
+|---|---|
+| ![Home](screenshots/home.jpg) | ![Tasks Kanban](screenshots/tasks-kanban.jpg) |
+
+| Projetos | Stats |
+|---|---|
+| ![Projetos](screenshots/projetos.jpg) | ![Stats](screenshots/stats.jpg) |
+
+![Foco](screenshots/foco.jpg)
 
 ---
 
@@ -163,6 +179,14 @@ Palette dark:
 **Progressive enhancement**: as features MCP (Calendar, Drive) são opcionais. Se não estiverem conectadas, o Meridian continua funcionando como um caderninho pessoal robusto.
 
 **Keyboard-first**: praticamente tudo tem atalho. Sem mouse dependencies.
+
+---
+
+## 🧭 Por que existe
+
+Começou como um teste rápido ("Oráculo") pra resolver um problema bem concreto: gerenciar tasks, projetos e foco num só lugar, sem depender de conta, servidor ou assinatura de mais um SaaS. Virou o Meridian — mesma filosofia, agora com nome e identidade próprios.
+
+Não é um produto pensado pra escalar; é uma ferramenta pessoal que eu mantenho porque uso todo dia. Deixei pública porque pode ser útil pra quem quer algo parecido: local-first, sem fricção, sem infra pra manter.
 
 ---
 
