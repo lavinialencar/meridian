@@ -1,0 +1,16 @@
+<svg width="360" height="96" viewBox="0 0 360 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Meridian">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5046e5"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="96" rx="14" fill="#fafafb"/>
+  <g transform="translate(16,16)">
+    <rect width="64" height="64" rx="15" fill="url(#g2)"/>
+    <circle cx="32" cy="32" r="14" fill="none" stroke="#fff" stroke-width="2.4"/>
+    <ellipse cx="32" cy="32" rx="5.4" ry="14" fill="none" stroke="#fff" stroke-width="2.4"/>
+    <line x1="18" y1="32" x2="46" y2="32" stroke="#fff" stroke-width="2.4"/>
+  </g>
+  <text x="98" y="58" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#0d0d14">Meridian</text>
+</svg>

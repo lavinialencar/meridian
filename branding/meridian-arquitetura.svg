@@ -1,0 +1,136 @@
+<svg viewBox="0 0 2214 2214" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c6ff7"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="2214" height="2214" fill="#0a0a0d"/>
+
+  <g transform="translate(1107,145)" text-anchor="middle">
+    <circle cx="-330" cy="-4" r="19" fill="none" stroke="#fff" stroke-width="3"/>
+    <ellipse cx="-330" cy="-4" rx="7.3" ry="19" fill="none" stroke="#fff" stroke-width="3"/>
+    <line x1="-349" y1="-4" x2="-311" y2="-4" stroke="#fff" stroke-width="3"/>
+    <text y="10" font-size="46" font-weight="700" fill="#fff">MERIDIAN — Arquitetura</text>
+    <text y="55" font-size="22" fill="#a0a0b2">Sistema single-file de produtividade pessoal · vanilla JS · local-first</text>
+  </g>
+
+  <g transform="translate(160,320)">
+    <rect width="1894" height="1690" rx="20" fill="none" stroke="#22222b" stroke-width="2"/>
+    <text x="35" y="42" font-size="24" font-weight="700" fill="#f0f0f3">BROWSER · meridian.html (single-file)</text>
+    <text x="1859" y="42" font-size="18" fill="#62626f" text-anchor="end">~100KB JS · ~20KB CSS · zero build · zero deps</text>
+
+    <!-- UI layer -->
+    <g transform="translate(35,80)">
+      <rect width="1824" height="210" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+      <text x="912" y="45" font-size="24" font-weight="700" fill="#c084fc" text-anchor="middle">UI LAYER</text>
+      <g font-size="16" font-weight="600">
+        <rect x="140" y="70" width="150" height="42" rx="9" fill="none" stroke="#60a5fa" stroke-width="1.5"/><text x="215" y="96" fill="#60a5fa" text-anchor="middle">Home</text>
+        <rect x="310" y="70" width="150" height="42" rx="9" fill="none" stroke="#34d399" stroke-width="1.5"/><text x="385" y="96" fill="#34d399" text-anchor="middle">Agenda</text>
+        <rect x="480" y="70" width="150" height="42" rx="9" fill="none" stroke="#c084fc" stroke-width="1.5"/><text x="555" y="96" fill="#c084fc" text-anchor="middle">Tasks</text>
+        <rect x="650" y="70" width="150" height="42" rx="9" fill="none" stroke="#fb923c" stroke-width="1.5"/><text x="725" y="96" fill="#fb923c" text-anchor="middle">Foco</text>
+        <rect x="820" y="70" width="150" height="42" rx="9" fill="none" stroke="#fbbf24" stroke-width="1.5"/><text x="895" y="96" fill="#fbbf24" text-anchor="middle">Stats</text>
+        <rect x="990" y="70" width="170" height="42" rx="9" fill="none" stroke="#7c6ff7" stroke-width="1.5"/><text x="1075" y="96" fill="#7c6ff7" text-anchor="middle">Projetos</text>
+        <rect x="1180" y="70" width="150" height="42" rx="9" fill="none" stroke="#60a5fa" stroke-width="1.5"/><text x="1255" y="96" fill="#60a5fa" text-anchor="middle">Notas</text>
+        <rect x="1350" y="70" width="150" height="42" rx="9" fill="none" stroke="#34d399" stroke-width="1.5"/><text x="1425" y="96" fill="#34d399" text-anchor="middle">Links</text>
+        <rect x="1520" y="70" width="160" height="42" rx="9" fill="none" stroke="#9595a3" stroke-width="1.5"/><text x="1600" y="96" fill="#9595a3" text-anchor="middle">Lixeira</text>
+      </g>
+    </g>
+
+    <!-- Renderers -->
+    <g transform="translate(35,320)">
+      <rect width="1824" height="180" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+      <text x="912" y="42" font-size="21" font-weight="700" fill="#c084fc" text-anchor="middle">RENDERERS · sob demanda + coalesced via requestAnimationFrame</text>
+      <g font-size="15" font-weight="600" fill="#c084fc">
+        <g font-family="monospace">
+          <rect x="60" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="95" y="94" text-anchor="middle">rs()</text>
+          <rect x="150" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="185" y="94" text-anchor="middle">rh()</text>
+          <rect x="240" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="275" y="94" text-anchor="middle">rt()</text>
+          <rect x="330" y="70" width="80" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="370" y="94" text-anchor="middle">rfc()</text>
+          <rect x="430" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="465" y="94" text-anchor="middle">rp()</text>
+          <rect x="520" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="555" y="94" text-anchor="middle">rd()</text>
+          <rect x="610" y="70" width="80" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="650" y="94" text-anchor="middle">rst()</text>
+          <rect x="710" y="70" width="80" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="750" y="94" text-anchor="middle">rav()</text>
+          <rect x="810" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="845" y="94" text-anchor="middle">rl()</text>
+          <rect x="900" y="70" width="80" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="940" y="94" text-anchor="middle">rtr()</text>
+          <rect x="1000" y="70" width="70" height="38" rx="8" fill="none" stroke="#7c6ff7"/><text x="1035" y="94" text-anchor="middle">rn()</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Core / Pickers / Timer -->
+    <g transform="translate(35,530)" font-size="15">
+      <g>
+        <rect width="560" height="220" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+        <text x="280" y="42" font-size="19" font-weight="700" fill="#34d399" text-anchor="middle">CORE</text>
+        <text x="280" y="80" fill="#c9c9d4" text-anchor="middle" font-family="monospace">tat() ← memoize · pchip() · tcc()</text>
+        <text x="280" y="108" fill="#c9c9d4" text-anchor="middle" font-family="monospace">pft() · ps() · tClean()</text>
+        <text x="280" y="136" fill="#c9c9d4" text-anchor="middle" font-family="monospace">_ckRefresh · schedRender</text>
+        <text x="280" y="164" fill="#c9c9d4" text-anchor="middle" font-family="monospace">openPicker (dropdown)</text>
+      </g>
+      <g transform="translate(632,0)">
+        <rect width="560" height="220" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+        <text x="280" y="42" font-size="19" font-weight="700" fill="#fb923c" text-anchor="middle">PICKERS &amp; UI</text>
+        <text x="280" y="80" fill="#c9c9d4" text-anchor="middle" font-family="monospace">openDatePicker</text>
+        <text x="280" y="108" fill="#c9c9d4" text-anchor="middle" font-family="monospace">openProjectColorPicker</text>
+        <text x="280" y="136" fill="#c9c9d4" text-anchor="middle" font-family="monospace">openTaskProjectPicker</text>
+        <text x="280" y="164" fill="#c9c9d4" text-anchor="middle" font-family="monospace">openFocusTaskPicker · openNoteRelPicker</text>
+      </g>
+      <g transform="translate(1264,0)">
+        <rect width="560" height="220" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+        <text x="280" y="42" font-size="19" font-weight="700" fill="#f87171" text-anchor="middle">TIMER (Pomodoro)</text>
+        <text x="280" y="80" fill="#c9c9d4" text-anchor="middle" font-family="monospace">pgo() · pst() · prs()</text>
+        <text x="280" y="108" fill="#c9c9d4" text-anchor="middle" font-family="monospace">pb() · setInterval(1s)</text>
+        <text x="280" y="136" fill="#c9c9d4" text-anchor="middle" font-family="monospace">ufb() · ufbt() cirúrgico · nso0()</text>
+        <text x="280" y="164" fill="#c9c9d4" text-anchor="middle" font-family="monospace">nt() (notificação)</text>
+      </g>
+    </g>
+
+    <!-- State -->
+    <g transform="translate(35,790)">
+      <rect width="1824" height="240" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+      <text x="912" y="42" font-size="21" font-weight="700" fill="#fbbf24" text-anchor="middle">STATE · D object (in-memory)</text>
+      <g font-size="14.5" font-family="monospace" font-weight="600">
+        <rect x="30" y="70" width="200" height="40" rx="9" fill="none" stroke="#7c6ff7"/><text x="130" y="95" fill="#7c6ff7" text-anchor="middle">projects[]</text>
+        <rect x="250" y="70" width="200" height="40" rx="9" fill="none" stroke="#c084fc"/><text x="350" y="95" fill="#c084fc" text-anchor="middle">tasks{}</text>
+        <rect x="470" y="70" width="200" height="40" rx="9" fill="none" stroke="#60a5fa"/><text x="570" y="95" fill="#60a5fa" text-anchor="middle">notes[]</text>
+        <rect x="690" y="70" width="220" height="40" rx="9" fill="none" stroke="#fb923c"/><text x="800" y="95" fill="#fb923c" text-anchor="middle">pomoSessions[]</text>
+        <rect x="930" y="70" width="200" height="40" rx="9" fill="none" stroke="#34d399"/><text x="1030" y="95" fill="#34d399" text-anchor="middle">focusDays{}</text>
+        <rect x="1150" y="70" width="200" height="40" rx="9" fill="none" stroke="#fbbf24"/><text x="1250" y="95" fill="#fbbf24" text-anchor="middle">comments{}</text>
+        <rect x="1370" y="70" width="200" height="40" rx="9" fill="none" stroke="#34d399"/><text x="1470" y="95" fill="#34d399" text-anchor="middle">calColors{}</text>
+        <rect x="1590" y="70" width="200" height="40" rx="9" fill="none" stroke="#62626f"/><text x="1690" y="95" fill="#9595a3" text-anchor="middle">_tatCache</text>
+      </g>
+      <text x="912" y="150" font-size="16" fill="#9595a3" text-anchor="middle" font-style="italic">mutação → sv() (debounce 500ms) → localStorage · _tatCache = null (invalida)</text>
+      <line x1="912" y1="165" x2="912" y2="200" stroke="#7c6ff7" stroke-width="2.5"/>
+    </g>
+
+    <!-- localStorage -->
+    <g transform="translate(220,1040)">
+      <rect width="1454" height="150" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+      <text x="727" y="45" font-size="21" font-weight="700" fill="#34d399" text-anchor="middle">localStorage (chave: meridian-v8 → segue oraculo-v8 por continuidade de dados)</text>
+      <text x="727" y="80" font-size="16" fill="#c9c9d4" text-anchor="middle">JSON snapshot · migração automática v6 → v7 → v8</text>
+      <text x="727" y="108" font-size="14" fill="#62626f" text-anchor="middle" font-style="italic">migrateLegacy() no boot · idempotente</text>
+    </g>
+
+    <!-- MCP -->
+    <g transform="translate(35,1280)">
+      <text x="245" y="0" font-size="16" font-weight="700" fill="#60a5fa">MCP</text>
+      <rect x="0" y="20" width="560" height="210" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+      <text x="280" y="70" font-size="22" font-weight="700" fill="#60a5fa" text-anchor="middle">Google Calendar</text>
+      <text x="280" y="105" font-size="16" font-family="monospace" fill="#c9c9d4" text-anchor="middle">list_events()</text>
+      <text x="280" y="135" font-size="14" fill="#9595a3" text-anchor="middle">Agenda + Próximas reuniões</text>
+      <text x="280" y="160" font-size="13" fill="#62626f" text-anchor="middle" font-style="italic">read-only · via MCP</text>
+
+      <text x="1580" y="0" font-size="16" font-weight="700" fill="#34d399" text-anchor="end">MCP</text>
+      <g transform="translate(1264,0)">
+        <rect width="560" height="210" rx="16" fill="none" stroke="#33333f" stroke-width="1.5"/>
+        <text x="280" y="70" font-size="22" font-weight="700" fill="#34d399" text-anchor="middle">Google Drive</text>
+        <text x="280" y="105" font-size="16" font-family="monospace" fill="#c9c9d4" text-anchor="middle">search_files() · create_file()</text>
+        <text x="280" y="135" font-size="14" fill="#9595a3" text-anchor="middle">Backup 4h · Oraculo Backup/</text>
+        <text x="280" y="160" font-size="13" fill="#62626f" text-anchor="middle" font-style="italic">meridian-backup-YYYY-MM-DD.json</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="1107" y="2160" font-size="18" fill="#62626f" text-anchor="middle" font-style="italic">local-first · progressive enhancement · keyboard-first</text>
+</svg>
