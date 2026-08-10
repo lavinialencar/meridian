@@ -184,7 +184,7 @@ Palette dark:
 
 ## 🧭 Por que existe
 
-Começou como um teste rápido ("Oráculo") pra resolver um problema bem concreto: gerenciar tasks, projetos e foco num só lugar, sem depender de conta, servidor ou assinatura de mais um SaaS. Virou o Meridian — mesma filosofia, agora com nome e identidade próprios.
+Começou como um teste rápido ("Oráculo") pra resolver um problema bem concreto: gerenciar tasks, projetos e foco num só lugar, sem depender de conta, servidor ou assinatura de mais um SaaS. Virou o Meridian, mesma filosofia, agora com nome e identidade próprios.
 
 Não é um produto pensado pra escalar; é uma ferramenta pessoal que eu mantenho porque uso todo dia. Deixei pública porque pode ser útil pra quem quer algo parecido: local-first, sem fricção, sem infra pra manter.
 
