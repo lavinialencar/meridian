@@ -106,7 +106,7 @@ Sem framework. Sem build. Sem npm. Sem tooling.
 - Vercel/Netlify: drop-in
 - Localhost: `python3 -m http.server 8080` na pasta
 
-Como é um arquivo single-file, sem CORS, sem CSP restrito, roda em qualquer lugar.
+Como é um arquivo single-file, sem CORS, roda em qualquer lugar. A CSP no `<head>` bloqueia recurso de outra origem (script, imagem, fetch); se for hospedar com algo externo, ajuste ela.
 
 ---
 
