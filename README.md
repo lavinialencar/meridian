@@ -195,3 +195,5 @@ Não é um produto pensado pra escalar; é uma ferramenta pessoal que eu mantenh
 MIT. Uso pessoal.
 
 Feito com ☕ e 🍅 por Lavínia Alencar.
+
+<!-- open sourcerer test -->
